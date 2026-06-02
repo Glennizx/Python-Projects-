@@ -18,3 +18,9 @@ print("----- Your Cart ----")
 
 for food in foods:
     print(food, end = " ")
+
+
+for price in prices:
+    total += price
+print()
+print(f"Your total is: ${total:.2f}")
