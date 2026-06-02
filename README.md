@@ -3,6 +3,7 @@ This repository contains my code, exercises, and notes from the Bro Code YouTube
 
 ------------
 Contents
+
 Python basics
 Functions
 OOP
