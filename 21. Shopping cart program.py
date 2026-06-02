@@ -17,4 +17,4 @@ while True:
 print("----- Your Cart ----") 
 
 for food in foods:
-    print(food)
+    print(food, end = " ")
