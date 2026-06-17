@@ -6,7 +6,7 @@ import pandas as pd
 toppings = np.array(['Pepperoni', 'Cheese', 'Mushroom', 'Pineapple', 'Prosciutto', 'Artichoke'])
 orders = np.array([40, 25, 20, 15, 4, 5])
 
-plt.pie(orders, labels= toppings, autopct ='%1.1f%%', explode=explode)
+plt.pie(orders, labels= toppings, autopct ='%1.1f%%', explode=explode) #this works "explode"
 plt.title("Pizza Toppings")
 
 
