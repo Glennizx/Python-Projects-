@@ -4,10 +4,10 @@ df = pd.read_csv("/workspaces/Python-Projects-/Projects/Data Engineering Project
 
 
 #Cleaning the column_name
-df['customer_name']= df['customer_name'].str.title()
-df['customer_name']= df['customer_name'].fillna('Unknown')
+df['customer_name']= df['customer_name'].fillna('Unknown').str.title().str.strip()
+
 #print(df)
 
 #Exporting to excel
-df.to_excel("Clean name.xlsx", index= False)
+
 df.to_csv ("Clean name.csv", index= False)
