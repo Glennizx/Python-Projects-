@@ -1,12 +1,13 @@
 import pandas as pd
 
 df = pd.read_csv("/workspaces/Python-Projects-/Projects/Data Engineering Projects/First Project (ETL) )Practice)/csv files/raw_sales.csv")
-df.info()
-
-# Problems found
-#1. 1 and 2 index has 1 missing value(null)
-#2. Status column doesn't have a proper format same with customer_name
-#3 order_date have 1 format not standardized
 
 
-#
+#Cleaning the column_name
+df['customer_name']= df['customer_name'].str.title()
+df['customer_name']= df['customer_name'].fillna('Unknown')
+#print(df)
+
+#Exporting to excel
+df.to_excel("Clean name.xlsx", index= False)
+df.to_csv ("Clean name.csv", index= False)
