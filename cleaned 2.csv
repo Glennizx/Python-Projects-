@@ -1,0 +1,11 @@
+order_id,customer_name,email,product,quantity,unit_price,order_date,status
+1001,Juan Dela Cruz,juan@email.com,Laptop,2,45000,2024-01-15,Completed
+1002,Maria Santos,unknown,Phone,1,25000,2024-01-16,Completed
+1003,Pedro Reyes,pedro@email.com,Laptop,-1,45000,2024-01-17,Completed
+1004,Ana Garcia,ana@email.com,Tablet,1,18000,2024-01-18,Pending
+1005,Juan Dela Cruz,juan@email.com,Mouse,3,850,2024-01-18,Completed
+1006,Unknown,carlo@email.com,Keyboard,2,1500,2024-01-20,Completed
+1007,Rosa Mendoza,rosa@email.com,Phone,1,25000,2024-01-20,Cancelled
+1008,Jose Rizal,jose@email.com,Monitor,1,12000,2024-01-21,Completed
+1009,Maria Santos,maria@email.com,Tablet,2,18000,2024-01-22,Completed
+1010,Pedro Reyes,pedro@email.com,Laptop,1,45000,2024-01-23,Completed
